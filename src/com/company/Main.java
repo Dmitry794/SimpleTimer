@@ -14,6 +14,7 @@ public class Main {
 
 
     public static void main(String[] args) {
+        System.out.println("Start");
         TimeReporter.startCounter("processor");
         proc = new ArrayList<>();
         proc.add(new Command(2240));
